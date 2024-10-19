@@ -527,9 +527,9 @@
 	{/each}
 </div>
 
-<div class=" text-gray-500 text-xs mt-1 mb-2">
+<!-- <div class=" text-gray-500 text-xs mt-1 mb-2">
 	ⓘ {$i18n.t("Use '#' in the prompt input to load and select your documents.")}
-</div>
+</div> -->
 
 <div class=" flex justify-end w-full mb-2">
 	<div class="flex space-x-2">
