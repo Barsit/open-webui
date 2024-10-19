@@ -110,8 +110,8 @@
 			<div class=" self-center">
 				<img
 					crossorigin="anonymous"
-					src="{WEBUI_BASE_URL}/static/favicon.png"
-					class=" w-8 rounded-full"
+					src="https://p1.ssl.qhimg.com/t01110d8485f75f6beb.jpg"
+					class=" w-14 rounded-full"
 					alt="logo"
 				/>
 			</div>
