@@ -3,7 +3,9 @@
 
 	import dayjs from 'dayjs';
 	import relativeTime from 'dayjs/plugin/relativeTime';
+	import 'dayjs/locale/zh-cn';
 	dayjs.extend(relativeTime);
+	dayjs.locale('zh-cn');
 
 	import { toast } from 'svelte-sonner';
 	import { onMount, getContext } from 'svelte';
@@ -181,7 +183,7 @@
 							{/if}
 						</div>
 						<div class=" text-xs text-gray-500">
-							Updated {dayjs(item.updated_at * 1000).fromNow()}
+							更新于 {dayjs(item.updated_at * 1000).fromNow()}
 						</div>
 					</div>
 				</div>
@@ -190,6 +192,6 @@
 	{/each}
 </div>
 
-<div class=" text-gray-500 text-xs mt-1 mb-2">
+<!-- <div class=" text-gray-500 text-xs mt-1 mb-2">
 	ⓘ {$i18n.t("Use '#' in the prompt input to load and include your knowledge.")}
-</div>
+</div> -->

@@ -630,7 +630,7 @@
 							</div>
 						{/each}
 					{:else}
-						<div class="text-xs text-center">No suggestion prompts</div>
+						<div class="text-xs text-center">暂无提示词建议</div>
 					{/if}
 				</div>
 			{/if}

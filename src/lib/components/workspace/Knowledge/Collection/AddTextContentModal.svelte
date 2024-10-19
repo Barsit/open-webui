@@ -66,7 +66,7 @@
 										class="w-full rounded-lg py-2 px-4 text-sm bg-white dark:text-gray-300 dark:bg-gray-850 outline-none"
 										type="text"
 										bind:value={name}
-										placeholder={`Name your content`}
+										placeholder={`取个标题`}
 										required
 									/>
 								</div>
@@ -80,7 +80,7 @@
 										class="w-full resize-none rounded-lg py-2 px-4 text-sm bg-whites dark:text-gray-300 dark:bg-gray-850 outline-none"
 										rows="10"
 										bind:value={content}
-										placeholder={`Write your content here`}
+										placeholder={`输入内容`}
 										required
 									/>
 								</div>

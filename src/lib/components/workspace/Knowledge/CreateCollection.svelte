@@ -68,32 +68,32 @@
 		}}
 	>
 		<div class=" w-full flex flex-col justify-center">
-			<div class=" text-2xl font-medium font-primary mb-2.5">Create a knowledge base</div>
+			<div class=" text-2xl font-medium font-primary mb-2.5">创建一个知识库</div>
 
 			<div class="w-full flex flex-col gap-2.5">
 				<div class="w-full">
-					<div class=" text-sm mb-2">What are you working on?</div>
+					<div class=" text-sm mb-2">你的知识库叫什么名字？</div>
 
 					<div class="w-full mt-1">
 						<input
 							class="w-full rounded-lg py-2 px-4 text-sm bg-gray-50 dark:text-gray-300 dark:bg-gray-850 outline-none"
 							type="text"
 							bind:value={name}
-							placeholder={`Name your knowledge base`}
+							placeholder={`给你的知识库取个名字吧`}
 							required
 						/>
 					</div>
 				</div>
 
 				<div>
-					<div class="text-sm mb-2">What are you trying to achieve?</div>
+					<div class="text-sm mb-2">你想达到什么目的？</div>
 
 					<div class=" w-full mt-1">
 						<textarea
 							class="w-full resize-none rounded-lg py-2 px-4 text-sm bg-gray-50 dark:text-gray-300 dark:bg-gray-850 outline-none"
 							rows="4"
 							bind:value={description}
-							placeholder={`Describe your knowledge base and objectives`}
+							placeholder={`描述一下你的知识库以及你的目标`}
 							required
 						/>
 					</div>
