@@ -577,7 +577,7 @@
 
 						<div class=" flex-shrink-0">
 							<div>
-								<Badge type="success" content="Collection" />
+								<Badge type="success" content="文件集" />
 							</div>
 						</div>
 					</div>
@@ -663,7 +663,7 @@
 									/>
 								</div>
 							{:else}
-								<div class="m-auto text-gray-500 text-xs">No content found</div>
+								<div class="m-auto text-gray-500 text-xs">暂无内容</div>
 							{/if}
 						</div>
 					</div>
