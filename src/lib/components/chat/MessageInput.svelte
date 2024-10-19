@@ -494,7 +494,7 @@
 								<textarea
 									id="chat-textarea"
 									bind:this={chatTextAreaElement}
-									class="scrollbar-hidden bg-gray-50 dark:bg-gray-850 dark:text-gray-100 outline-none w-full py-3 px-1 rounded-xl resize-none h-[48px]"
+									class="scrollbar-hidden bg-gray-50 dark:bg-gray-850 dark:text-gray-100 outline-none w-full py-3 px-5 rounded-xl resize-none h-[48px]"
 									placeholder={placeholder ? placeholder : $i18n.t('Send a Message')}
 									bind:value={prompt}
 									on:keypress={(e) => {
