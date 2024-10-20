@@ -88,8 +88,7 @@
 				<div class=" self-center font-medium">{$i18n.t('Archived Chats')}</div>
 			</button>
 
-			{#if role === 'admin'}
-				<button
+			<button
 					class="flex rounded-md py-2 px-3 w-full hover:bg-gray-50 dark:hover:bg-gray-800 transition"
 					on:click={() => {
 						goto('/playground');
@@ -116,8 +115,11 @@
 							/>
 						</svg>
 					</div>
-					<div class=" self-center font-medium">{$i18n.t('Playground')}</div>
+					<div class=" self-center font-medium">Transformer可视化</div>
 				</button>
+
+			{#if role === 'admin'}
+
 
 				<button
 					class="flex rounded-md py-2 px-3 w-full hover:bg-gray-50 dark:hover:bg-gray-800 transition"
