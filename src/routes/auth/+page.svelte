@@ -159,19 +159,21 @@
 						<div class="mb-1">
 							<div class=" text-2xl font-medium">
 								{#if mode === 'signin'}
-									{$i18n.t(`Sign in to {{WEBUI_NAME}}`, { WEBUI_NAME: $WEBUI_NAME })}
+									<!--{$i18n.t(`Sign in to {{WEBUI_NAME}}`, { WEBUI_NAME: $WEBUI_NAME })}-->
+									登录
 								{:else}
-									{$i18n.t(`Sign up to {{WEBUI_NAME}}`, { WEBUI_NAME: $WEBUI_NAME })}
+									<!--{$i18n.t(`Sign up to {{WEBUI_NAME}}`, { WEBUI_NAME: $WEBUI_NAME })}-->
+                                    注册
 								{/if}
 							</div>
 
 							{#if mode === 'signup'}
-								<div class=" mt-1 text-xs font-medium text-gray-500">
-									ⓘ {$WEBUI_NAME}
-									{$i18n.t(
-										'does not make any external connections, and your data stays securely on your locally hosted server.'
-									)}
-								</div>
+<!--								<div class=" mt-1 text-xs font-medium text-gray-500">-->
+<!--									ⓘ {$WEBUI_NAME}-->
+<!--									{$i18n.t(-->
+<!--										'does not make any external connections, and your data stays securely on your locally hosted server.'-->
+<!--									)}-->
+<!--								</div>-->
 							{/if}
 						</div>
 
@@ -194,13 +196,13 @@
 								{/if}
 
 								<div class="mb-2">
-									<div class=" text-sm font-medium text-left mb-1">{$i18n.t('Email')}</div>
+									<div class=" text-sm font-medium text-left mb-1">学号</div>
 									<input
 										bind:value={email}
-										type="email"
+										type="text"
 										class=" px-5 py-3 rounded-2xl w-full text-sm outline-none border dark:border-none dark:bg-gray-900"
-										autocomplete="email"
-										placeholder={$i18n.t('Enter Your Email')}
+										placeholder=请输入你的学号
+										pattern="[0-9]*"
 										required
 									/>
 								</div>
