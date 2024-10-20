@@ -701,8 +701,10 @@
 						{:else}
 							<div class="m-auto">
 								<AddFilesPlaceholder title={$i18n.t('Select/Add Files')}>
-									<div class=" mt-2 text-center text-sm dark:text-gray-200 w-full">
-										Select a file to view or drag and drop a file to upload
+									<div class=" mt-2 text-center text-sm dark:text-gray-200 w-full"><a href="https://www.maxai.me/zh-CN/pdf-tools/pdf-ocr/"
+   class="mt-2 text-center text-lg dark:text-gray-200 w-full text-black py-2 px-4 rounded">
+   扫描版、图片版PDF请先在此转换后再上传
+</a>
 									</div>
 								</AddFilesPlaceholder>
 							</div>
