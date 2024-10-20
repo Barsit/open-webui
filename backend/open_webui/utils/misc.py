@@ -161,10 +161,11 @@ def calculate_sha256_string(string):
 
 
 def validate_email_format(email: str) -> bool:
+    # 修改为学号检查，目前要求纯数字
     if email.endswith("@localhost"):
         return True
 
-    return bool(re.match(r"[^@]+@[^@]+\.[^@]+", email))
+    return bool(re.match(r"[0-9]*", email))
 
 
 def sanitize_filename(file_name):

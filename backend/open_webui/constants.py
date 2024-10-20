@@ -25,7 +25,7 @@ class ERROR_MESSAGES(str, Enum):
     CREATE_USER_ERROR = "Oops! Something went wrong while creating your account. Please try again later. If the issue persists, contact support for assistance."
     DELETE_USER_ERROR = "Oops! Something went wrong. We encountered an issue while trying to delete the user. Please give it another shot."
     EMAIL_MISMATCH = "Uh-oh! This email does not match the email your provider is registered with. Please check your email and try again."
-    EMAIL_TAKEN = "Uh-oh! This email is already registered. Sign in with your existing account or choose another email to start anew."
+    EMAIL_TAKEN = "Uh-oh! This StudentID is already registered. Sign in with your existing account or choose another email to start anew."
     USERNAME_TAKEN = (
         "Uh-oh! This username is already registered. Please choose another username."
     )

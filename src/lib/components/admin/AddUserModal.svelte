@@ -206,7 +206,7 @@
 								<div class="flex-1">
 									<input
 										class="w-full rounded-lg py-2 px-4 text-sm dark:text-gray-300 dark:bg-gray-850 disabled:text-gray-500 dark:disabled:text-gray-500 outline-none"
-										type="email"
+										type="text"
 										bind:value={_user.email}
 										placeholder={$i18n.t('Enter Your Email')}
 										autocomplete="off"
