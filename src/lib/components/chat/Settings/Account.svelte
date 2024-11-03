@@ -5,7 +5,7 @@
 	import { user } from '$lib/stores';
 	import { updateUserProfile, createAPIKey, getAPIKey } from '$lib/apis/auths';
 
-	import UpdatePassword from './Account/UpdatePassword.svelte';
+	// import UpdatePassword from './Account/UpdatePassword.svelte';
 	import { getGravatarUrl } from '$lib/apis/utils';
 	import { generateInitialsImage, canvasPixelTest } from '$lib/utils';
 	import { copyToClipboard } from '$lib/utils';
@@ -229,9 +229,9 @@
 			</div>
 		</div>
 
-		<div class="py-0.5">
-			<UpdatePassword />
-		</div>
+<!--		<div class="py-0.5">-->
+<!--			<UpdatePassword />-->
+<!--		</div>-->
 
 		<hr class=" dark:border-gray-850 my-4" />
 
