@@ -279,6 +279,10 @@
 			? ''
 			: 'invisible'}"
 	>
+	<img src="{WEBUI_BASE_URL}/static/dut-logo.png" alt="">
+	<img src="{WEBUI_BASE_URL}/static/ss-logo.jpg" alt="">
+	<!-- 分割线 -->
+	 <div class="h-[1px] bg-gray-200 dark:bg-gray-800"></div>
 		<div class="px-2.5 flex justify-between space-x-1 text-gray-600 dark:text-gray-400">
 			<a
 				id="sidebar-new-chat-button"
@@ -299,7 +303,6 @@
 			>
 				<div class="self-center mx-1.5">
 					<img
-						crossorigin="anonymous"
 						src="{WEBUI_BASE_URL}/static/favicon.png"
 						class=" size-6 -translate-x-1.5 rounded-full"
 						alt="logo"
