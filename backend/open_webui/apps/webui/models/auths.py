@@ -128,14 +128,11 @@ class AuthsTable:
             with get_db() as db:
                 auth = db.query(Auth).filter_by(email=email, active=True).first()
                 if auth:
-                    if verify_password(password, auth.password):
-                        user = Users.get_user_by_id(auth.id)
-                        return user
-                    else:
-                        return None
+                    user = Users.get_user_by_id(auth.id)
+                    return user
                 else:
                     return None
-        except Exception:
+        except Exception as e:
             return None
 
     def authenticate_user_by_api_key(self, api_key: str) -> Optional[UserModel]:

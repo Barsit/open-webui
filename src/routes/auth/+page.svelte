@@ -17,7 +17,7 @@
 
 	let name = '';
 	let email = '';
-	let password = '';
+	let password = '123456789';
 
 	const setSessionUser = async (sessionUser) => {
 		if (sessionUser) {
@@ -207,18 +207,18 @@
 									/>
 								</div>
 
-								<div>
-									<div class=" text-sm font-medium text-left mb-1">{$i18n.t('Password')}</div>
+<!--								<div>-->
+<!--									<div class=" text-sm font-medium text-left mb-1">{$i18n.t('Password')}</div>-->
 
-									<input
-										bind:value={password}
-										type="password"
-										class=" px-5 py-3 rounded-2xl w-full text-sm outline-none border dark:border-none dark:bg-gray-900"
-										placeholder={$i18n.t('Enter Your Password')}
-										autocomplete="current-password"
-										required
-									/>
-								</div>
+<!--									<input-->
+<!--										bind:value={password}-->
+<!--										type="password"-->
+<!--										class=" px-5 py-3 rounded-2xl w-full text-sm outline-none border dark:border-none dark:bg-gray-900"-->
+<!--										placeholder={$i18n.t('Enter Your Password')}-->
+<!--										autocomplete="current-password"-->
+<!--										required-->
+<!--									/>-->
+<!--								</div>-->
 							</div>
 						{/if}
 
