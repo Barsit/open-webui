@@ -42,7 +42,7 @@
 	import SettingsModal from '$lib/components/chat/SettingsModal.svelte';
 	// import ChangelogModal from '$lib/components/ChangelogModal.svelte';
 	import AccountPending from '$lib/components/layout/Overlay/AccountPending.svelte';
-	import UpdateInfoToast from '$lib/components/layout/UpdateInfoToast.svelte';
+	// import UpdateInfoToast from '$lib/components/layout/UpdateInfoToast.svelte';
 
 	const i18n = getContext('i18n');
 
@@ -227,7 +227,7 @@
 <SettingsModal bind:show={$showSettings} />
 <!-- <ChangelogModal bind:show={$showChangelog} /> -->
 
-{#if version && compareVersion(version.latest, version.current)}
+<!-- {#if version && compareVersion(version.latest, version.current)}
 	<div class=" absolute bottom-8 right-8 z-50" in:fade={{ duration: 100 }}>
 		<UpdateInfoToast
 			{version}
@@ -237,7 +237,7 @@
 			}}
 		/>
 	</div>
-{/if}
+{/if} -->
 
 <div class="app relative">
 	<div
